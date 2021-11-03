@@ -1,0 +1,49 @@
+.display-item{
+  border-radius: 10px;
+}
+.topselling{
+  background:white;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  
+}
+.topselling-item{
+  border-radius: 10px;
+}
+.topselling:hover{
+  color: darkorange;
+  transition: .2s;
+}
+.topselling img{
+  border: darkgreen solid;
+  width: 13em;
+}
+.topselling img:hover{
+  width: 17em;
+}
+
+.deals{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background:white;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+}
+.deals-item{
+  border-radius: 10px;
+}
+.deals-item:hover{
+color: darkorange;
+transition: .2s;
+}
+.deals-item img{
+  border: darkgreen solid;
+  width: 13em;
+}
+.deals-item img:hover{
+  width: 17em;
+}

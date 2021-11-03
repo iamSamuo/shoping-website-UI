@@ -1,0 +1,113 @@
+.menu{
+  font-size:10px; 
+  flex-wrap: wrap;
+}
+.navbar {
+  background: linear-gradient();
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+}
+.nav-menu {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 60vw;
+  justify-content: start;
+  margin-right: 1rem;
+}
+.nav-item {
+  height: 90px;
+}
+
+.nav-links {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0.2rem .5rem;
+  height: 1%;
+}
+
+.nav-links:hover {
+  border-bottom: 4px solid #fff;
+  transition: all 0.2s ease-out;
+}
+.fa-bars {
+  color: #fff;
+}
+.nav-links-mobile {
+  display: none;
+}
+.menu-icon {
+  display: none;
+}
+  .nav-menu {
+display: flex;
+flex-direction: column;
+    width: 50%;
+    height: 75vh;
+    position: left;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .nav-menu.active {
+    background:rgb(28, 80, 28);
+    left: 0;
+    opacity: none;
+    transition: all 0.5s ease;
+    z-index:1 ;
+  }
+
+  .nav-link {
+    font-size: 14px;
+    text-align: center;
+    padding: 2rem;
+    width: 2%;
+    cursor: pointer;
+
+   }
+  .nav-link:hover {
+    border-bottom: 4px solid rgb(177, 170, 170);
+  }
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .fa-times {
+    color: #fff;
+    font-size: 2rem;
+  }
+  .nav-link-mobile {
+    display: block;
+    text-align: center;
+    margin: 2rem auto;
+    border-radius: 4px;
+    width: 20%;
+    text-decoration: none;
+    font-size: 14px;
+    background-color: transparent;
+    color: #fff;
+    padding: 14px 20px;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-out;
+  }
+  .nav-link-mobile:hover {
+    background: rgb(134, 131, 131);
+    transition: 250ms;
+  }

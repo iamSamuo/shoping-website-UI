@@ -1,0 +1,44 @@
+.footer{
+  background: darkolivegreen;
+}
+.footer a{
+  text-decoration:none ;
+  font-size: 9px;
+}
+.footer a h3 {
+  color: white;
+  text-transform: uppercase;
+  padding: 0px 10px;
+  margin:20px;
+}
+.footer a h3:hover{
+  color: rgb(233, 145, 30);
+  transition: .3s;
+}
+.footercontent{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.socialmedia{
+  color: white;
+  text-align: center;
+}
+.socialmedia i:hover{
+  color: orange;
+  width:20px;
+  transition: .2s;
+}
+.endfooter{
+  text-align: center;
+  color: white;
+  margin: 5px;
+  font-size: 12px;
+  justify-content: space-between;
+}
+.endfooter i p{
+  font-family: serif;
+  color: white;
+padding: 2px;
+
+}
